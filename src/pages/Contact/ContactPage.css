@@ -1,0 +1,54 @@
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .maptour {
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px; /* Adjust margin-left value */
+    height: 300px;
+    z-index: 80;
+    flex: 2;
+    border: 2px solid black;
+  }
+  
